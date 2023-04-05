@@ -44,8 +44,8 @@ const About = () => {
         <p className={styles.sectionSubText}>Introduction</p>
         <h2 className={styles.sectionHeadText}>Overview</h2>
       </motion.div>
-      <motion.p variants={fadeIn("", "", 0.1, 1)} className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis sequi libero consequatur! Non aut, nihil impedit consequatur at natus! Quisquam repellat voluptas excepturi ducimus facere, dicta nihil voluptates? Molestias, perferendis.
+      <motion.p variants={fadeIn("", "", 0.1, 1)} className='mt-4 text-secondary text-[18px] max-w-3xl leading-[30px]'>
+      Kasen is a Full Stack Developer, with a strong ability to turn complex problems into simple and elegant solutions. His experience in both front-end and back-end development makes him a valuable addition to any development team, and is eager to learn and grow in this field.
 
       </motion.p>
       <div className='mt-20 flex flex-wrap gap-10'>
