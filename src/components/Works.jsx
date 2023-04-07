@@ -1,6 +1,7 @@
 import React from "react";
 import Tilt from "react-tilt";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 
 import { styles } from "../style";
 import { github } from "../assets";
@@ -72,7 +73,7 @@ const Works = () => {
     <>
       <motion.div variants={textVariant()}>
         <p className={`${styles.sectionSubText} `}>My work</p>
-        <h2 className={`${styles.sectionHeadText}`}>Projects.</h2>
+        <Link to='https://github.com/BrughK' target="_blank"><h2 className={`${styles.sectionHeadText}`}>Projects.</h2></Link>
       </motion.div>
 
       <div className="w-full flex">

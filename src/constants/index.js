@@ -19,11 +19,16 @@ import {
   starbucks,
   tesla,
   shopify,
-  carrent,
-  jobit,
-  tripguide,
   threejs,
+  heroku,
+  jest,
+  ql,
+  insomnia,
 } from "../assets";
+
+import Home from "../assets/home.png";
+import Currency from "../assets/currency.png";
+import CFB from "../assets/search.png";
 
 export const navLinks = [
   {
@@ -37,10 +42,6 @@ export const navLinks = [
   {
     id: "contact",
     title: "Contact",
-  },
-  {
-    id: "resume",
-    title: "Resume",
   },
 ];
 
@@ -77,16 +78,16 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
+    name: "JEST",
+    icon: jest,
   },
   {
     name: "React JS",
     icon: reactjs,
   },
   {
-    name: "JEST Testing",
-    icon: redux,
+    name: "Heroku",
+    icon: heroku,
   },
   {
     name: "Tailwind CSS",
@@ -107,6 +108,14 @@ const technologies = [
   {
     name: "git",
     icon: git,
+  },
+  {
+    name: "GraphQL",
+    icon: ql,
+  },
+  {
+    name: "Insomnia",
+    icon: insomnia,
   },
 ];
 
@@ -211,7 +220,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: Home,
     source_code_link: "https://github.com/BrughK/reLEASE-Me",
   },
   {
@@ -232,7 +241,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: CFB,
     source_code_link: "https://github.com/BrughK/CFB-Roster-Builder",
   },
   {
@@ -253,7 +262,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: Currency,
     source_code_link: "https://github.com/BrughK/Project-1",
   },
 ];
