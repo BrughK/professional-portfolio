@@ -19,11 +19,16 @@ import {
   starbucks,
   tesla,
   shopify,
-  carrent,
-  jobit,
-  tripguide,
   threejs,
+  heroku,
+  jest,
+  ql,
+  insomnia,
 } from "../assets";
+
+import Home from "../assets/home.png";
+import Currency from "../assets/currency.png";
+import CFB from "../assets/search.png";
 
 export const navLinks = [
   {
@@ -42,19 +47,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Full Stack Developer",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Problem Solver",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Detail Oriented",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Team Player",
     icon: creator,
   },
 ];
@@ -73,16 +78,16 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
+    name: "JEST",
+    icon: jest,
   },
   {
     name: "React JS",
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "Heroku",
+    icon: heroku,
   },
   {
     name: "Tailwind CSS",
@@ -105,12 +110,12 @@ const technologies = [
     icon: git,
   },
   {
-    name: "figma",
-    icon: figma,
+    name: "GraphQL",
+    icon: ql,
   },
   {
-    name: "docker",
-    icon: docker,
+    name: "Insomnia",
+    icon: insomnia,
   },
 ];
 
@@ -198,16 +203,16 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Re-LEASE Me",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "reLEASE Me is a MERN stack application designed to help college students find subleases or post listings of their own.",
     tags: [
       {
-        name: "react",
+        name: "MERN-Stack",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "mongoDB",
         color: "green-text-gradient",
       },
       {
@@ -215,50 +220,50 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: Home,
+    source_code_link: "https://github.com/BrughK/reLEASE-Me",
   },
   {
-    name: "Job IT",
+    name: "CFB Roster Builder",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "The CFB Roster Builder is a full stack application that allows users to stay up to date with their favorite players.",
     tags: [
       {
-        name: "react",
+        name: "HandleBars",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "MySQL",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "Sequelize",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: CFB,
+    source_code_link: "https://github.com/BrughK/CFB-Roster-Builder",
   },
   {
-    name: "Trip Guide",
+    name: "Currency Converter",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Currency converter that also includes crypto prices. Users can convert from many different forms on the spot.",
     tags: [
       {
-        name: "nextjs",
+        name: "RESTful API",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Express",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "HTML",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: Currency,
+    source_code_link: "https://github.com/BrughK/Project-1",
   },
 ];
 

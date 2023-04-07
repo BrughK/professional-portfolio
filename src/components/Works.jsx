@@ -1,6 +1,7 @@
 import React from "react";
 import Tilt from "react-tilt";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 
 import { styles } from "../style";
 import { github } from "../assets";
@@ -72,7 +73,7 @@ const Works = () => {
     <>
       <motion.div variants={textVariant()}>
         <p className={`${styles.sectionSubText} `}>My work</p>
-        <h2 className={`${styles.sectionHeadText}`}>Projects.</h2>
+        <Link to='https://github.com/BrughK' target="_blank"><h2 className={`${styles.sectionHeadText}`}>Projects.</h2></Link>
       </motion.div>
 
       <div className="w-full flex">
@@ -80,11 +81,17 @@ const Works = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
-          Following projects showcases my skills and experience through
+          While learning different technologies and frameworks, I had the opportunity to work on several projects where I was solely responsible for designing, implementing, and deploying the entire solution. Over that time I was able to build solid fundementals to prepare me for larger scale applications.
+          <br />
+          <br />
+          However, I have also worked on several projects as part of a team. The following projects are a showcase of not only my skill as a solo developer, but also my ability to work well in a team environment. These projects required excellent communication and collaboration skills, as well as the ability to work towards a common goal in a short time frame.
+
+      
+          {/* Following projects showcases my skills and experience through
           real-world examples of my work. Each project is briefly described with
           links to code repositories and live demos in it. It reflects my
           ability to solve complex problems, work with different technologies,
-          and manage projects effectively.
+          and manage projects effectively. */}
         </motion.p>
       </div>
 
@@ -97,4 +104,4 @@ const Works = () => {
   );
 };
 
-export default SectionWrapper(Works, "");
+export default SectionWrapper(Works, "work");

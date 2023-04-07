@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { styles } from "../style";
 import { navLinks } from "../constants";
 import { logo, menu, close } from "../assets";
+import Resume from "../assets/Resume.pdf";
 
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -24,7 +25,7 @@ const Navbar = () => {
           <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
           <p className="text-white text-[18px] font-bold cursor-pointer flex ">
             Kasen &nbsp;
-            <span className="sm:block hidden"> | JavaScript Mastery</span>
+            <span className="sm:block hidden"> | Full Stack Dev</span>
           </p>
         </Link>
         <ul className="list-none hidden sm:flex flex-row gap-10">
@@ -39,6 +40,11 @@ const Navbar = () => {
               <a href={`#${nav.id}`}>{nav.title}</a>
             </li>
           ))}
+          <li className="text-secondary hover:text-white text-[18px] font-medium cursor-pointer">
+            <Link to={Resume} target="_blank">
+              Resume
+            </Link>
+          </li>
         </ul>
         <div className="sm:hidden flex flex-1 justify-end items-center">
           <img
@@ -67,6 +73,11 @@ const Navbar = () => {
                   <a href={`#${nav.id}`}>{nav.title}</a>
                 </li>
               ))}
+              <li className="text-secondary hover:text-white text-[18px] font-medium cursor-pointer">
+            <Link to={Resume} target="_blank">
+              Resume
+            </Link>
+          </li>
             </ul>
           </div>
         </div>
