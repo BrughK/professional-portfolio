@@ -1,3 +1,3 @@
-# professional portfolio
+# Kasen Brugh's Portfolio!
 
-Current Portfolio
+Link Here: https://brughk.com/
